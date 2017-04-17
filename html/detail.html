@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情页</title>
+		<link rel="stylesheet" href="../css/detail.css" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/public.css" />		
+	</head>
+	<body>
+		<!--头-->
+		<div class="header_wrap">
+			<!--头顶部-->
+		<div class="bg_head_s">
+			<div class="head_s">
+				<!--左侧-->
+            	<div class="s_left">
+            		<!--手机萤草网-->
+                	<dl class="s_node">
+                		<dt>
+                			<a href="javascript:void(0);">
+                				<span class="icon_header header_phone"></span>
+                				手机萤草网
+                			</a>
+                		</dt>
+                	</dl>  
+                	<!--公告-->
+        			<div class="top_notice">
+                		<a title="公告" target="_blank" href="#" class="banner_link">公告：萤草网防诈骗提醒</a>
+          			</div>
+          			<!--消费者-->
+            		<div class="head-gzs">
+                    	<a href="#" target="_blank">消费者告知书</a>
+            		</div>
+            	</div>
+   				<!--右侧-->
+   				<div class="s_right ">
+   					<span class="userInfo">
+	                	<a href="#" target="_blank" class="nav-zheng">正品保证</a>
+	                	<a href="#" target="_blank" class="user_login ">登录</a>
+	                	<a href="#" target="_blank" class="user_reg ">注册</a>
+                </span>
+          <!--我的萤草-->
+                <dl class="s_node s_my">
+                    <dt><a href="/">我的萤草<i class="i_sj"></i></a></dt>
+                  <!--  <dd style="display: block;">
+                        <ul> 
+                            <li class="s_list">
+                                <a title="我的订单" target="_blank" href="#">我的订单</a>
+                            </li>
+                            <li class="s_list">
+                                <a title="我的积分" target="_blank" href="#">我的积分</a>
+                            </li>
+                        </ul>
+                    </dd>-->
+                </dl>
+                <!--客户服务-->
+                <dl class="s_node s_more">
+                    <dt><a href="javascript:void(0);">客户服务<i class="i_sj"></i></a></dt>
+                   <!-- <dd style="width: 88px; display: none;">
+                        <ul>
+                            <li class="s_list">
+                                <a href="#" target="_blank">帮助中心</a>
+                            </li>
+                            <li class="s_list">
+                                <a href="#" target="_blank">正品承诺</a>
+                            </li>
+                            <li class="s_list">
+                                <a href="#" target="_blank">售后服务</a>
+                            </li>
+                            <li class="s_list">
+                                <a href="#" target="_blank">购物流程</a>
+                            </li>
+                        </ul>
+                    </dd>-->
+                </dl>
+            </div> 
+			</div>	
+		</div>
+			<!--头中部-->
+			<div class="head_t">
+				<!--logo-->
+				<div class="t_logo">
+					<a href="#" target="_blank"></a>
+				</div>				
+				<!--购物车-->
+				<div class="t_cart" id="carthover">
+					<dl>
+		                <dt>
+		                	<a href="cart.html"><span class="ico"></span>购物车(<em id="buy_numb" class="buy_num">0</em>)<i class="i_sj"></i></a>
+		                </dt>
+		                <!--<dd class="car_con" id="shopingTorlleyContent">
+		                	<p class="car_none">购物车中还没有商品，赶紧选购吧</p>
+		                </dd>-->
+	                </dl>
+            	</div>			
+				<!--搜索框-->
+				<div class="t_scan">
+					<!--框-->
+	                <div class="t_scan_s">
+	                    <div class="twitter-typeahead">
+	                    	<input type="text" class="search_input" id="keyword" placeholder="雅诗兰黛">
+	                    	<!-- 隐藏栏 -->
+	                    	<div class="tt-suggestions">
+	                    		<ul style="display: none">
+	                    			<li><a href="javascript:void(0);">雅诗兰黛</a></li>
+	                    			<li><a href="javascript:void(0);">香水套装</a></li>
+	                    			<li><a href="javascript:void(0);">护肤套装</a></li>
+	                    			<li><a href="javascript:void(0);">补水保湿</a></li>
+	                    			<li><a href="javascript:void(0);">美白</a></li>
+	                    			<li><a href="javascript:void(0);">卸妆</a></li>
+	                    			<li><a href="javascript:void(0);"隔离</a></li>
+	                    		</ul>
+	                    	</div>
+	                    </div>
+	                    <input type="button" value="搜索" class="search_btn" id="btn-search">
+	                </div>
+	                	<!--搜索框下链接-->
+	                <div class="t_scan_a">
+	                	<a href="#" target="_blank">199减100</a>
+	                	<a href="#" target="_blank">面膜</a>
+	                	<a href="#" target="_blank">补水保湿</a>
+	                	<a href="#" target="_blank">眼霜</a>
+	                	<a href="#" target="_blank">营养保健</a>
+	                	<a href="#" target="_blank">国际轻奢</a>
+	                	<a href="#" style="color:#FF0000;" target="_blank">买了卖</a>
+	                </div>
+           	 	</div>
+			</div>
+			<!--头底部-->
+			<div class="head_d header_menu_line">
+       			<div class="head_d_con">
+       				<!--底部左边-->
+       				<div class="d_con_left">
+	       				<!--首页-->
+	       				<div class="ind">
+		                    <a href="index.html" class="t_nav_f">首页<span class="btm"></span></a><em></em>
+	               		</div>
+	               		<!--首页右边-->
+	               		<div class="t_nav_menu">
+		                    <a href="list.html">进口免税店<span class="btm"></span></a><em></em>
+		                    <a href="list.html">美妆商城<span class="btm"></span></a><em></em>  
+		                    <a href="list.html">品牌闪购<span class="btm"></span></a><em></em>
+		                    <a href="#">免费试用<span class="btm"></span></a>
+	               		</div>
+       				</div>
+       				<!--底部右边-->
+       				<div class="d_con_right">
+                		<a href="#">企业采购</a><em></em>
+                		<a href="#">品牌导航</a><em></em>
+               			<a href="#">积分商城</a>
+            		</div>
+       			</div>
+			</div>
+		</div>
+		
+			
+		<!--详情-->
+		<div class="detail-main">
+			<!--地址-->
+			<div class="detail-road">
+                <a href="index.html" target="_blank">首页</a>&gt;
+                <a target="_blank" href="#"> 护肤</a>&gt;
+                <a target="_blank" href="#"> 防晒隔离</a>&gt;
+                <a target="_blank" href="#">馥蕾诗</a>&gt;
+                <span>fresh 馥蕾诗 牡丹亮白防晒隔离乳30ml</span>
+            </div>
+           <!--内容盒子-->
+            <div class="main-details-box">
+           	<!--左侧内容-->
+	            <div class="main-details-l">
+	            	<div class="main-img-box">
+	            		<!--左边小图片盒子-->
+	                    <div class="little-img-box picScroll-top">
+							<a href="javascript:void(0);" class="prev prevStop"><em></em></a>
+							<div class="img-list-box bd3">
+                                <ul id="imagelist">
+                                    <li class="min_1">
+                                    	<em></em>
+                                    	<img src="">
+                                    </li>
+                                    <li class="min_2">
+                                    	<em></em>
+                                    	<img src="">
+                                    </li>
+                                    <li class="min_3">
+                                    	<em></em>
+                                    	<img src="">
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:void(0);" class="next nextStop"><em></em></a>
+	               		</div>
+	                	<!--左边大图片盒子-->
+	                	<div class="big-img-box" id="selfzoompup">
+	                		<img id="small1" src="" />
+	                		<img id="small2" src="" />
+	                		<img id="small3" src="" />
+	                		<div id="len"></div>
+	                	</div>
+	                <!-- 放大镜 -->
+	                	<div id="large_img">
+	                		<img class="big_img img1" id="large1" src="">
+	                		<img class="big_img img2" id="large2" src="">
+	                		<img class="big_img img3" id="large3" src="">
+	                	</div>
+
+
+
+
+	                	<!--左侧收藏分享-->
+	                	<div class="detail-share">
+	                		<a href="javascript:;" class="coll"><em></em>收藏<strong>（3046）</strong></a>
+                      		<a href="javascript:;" class="share sg_share_link"><em></em>分享</a>
+	                	</div>
+	            	</div>
+	          	</div>
+	        <!--右侧内容-->
+	        	<div class="main-details-r">
+	        	<!--标签-->
+	        		<div class="ad-tag-box">
+                        <span class="flag"><img src="../img/detials/usa.jpg"></span>
+                        <span class="country">中国</span>
+                      	<a href="#" class="brand"><img src="../img/detials/brand_170x60.jpg" title="雅诗兰黛"></a>
+                        <span class="ad-tag" title="萤草网自营">自营</span>
+                    </div>
+                <!--名字-->
+                	<h2 class="prd-name"></h2>
+                <!-- 编号 -->
+                	<div class="pro_num" style="display: none;">EA0076</div>
+               	<!--活动-->
+               		<div class="ad-hd-go">
+               			<a href="#"></a>
+               		</div>
+               	<!--价格-->
+               		<div class="ordinary-price">
+                        <div class="main-lm dynamic-name">价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格:</div>
+                        <span class="price"><em>￥</em><strong class="dynamic-price"></strong></span>
+                        <span class="mark-price">市场价:<del></del></span>
+                        <a href="#" class="pj-num">累计<em class="comment-count">10555</em>人评价</a>
+					</div>
+				<!--促销信息-->
+					<div class="sale-infor">
+						<div class="main-lm">促销信息:</div>
+						<div class="infor-box">
+                            <div class="infor">
+                                <div class="pro_yh_list">
+            						<span class="pro_yh_pt">满加价</span>
+            						<span class="pro_yh_w">满1元起，即可在购物车加价换购热销商品</span>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+	        	<!--售后-->
+	        		<div class="after-service">
+                        <div class="main-lm">售后服务:</div>
+                        <span>该商品由萤草网提供；由萤草网统一配送和提供售后服务</span>
+                    </div>
+                <!--规格-->
+                	<div class="size-box">
+	                	<div class="main-lm">商品容量：</div>
+	                	<div class="size-con">
+	                		<a href="javascript:void(0);" class="active">15ml</a>
+	                		<a href="javascript:void(0);" class="">3ml</a>
+	                		<a href="javascript:void(0);" class="">3ml*3</a>
+	                	</div>
+               		</div>
+	        	<!--数量-->
+	        		<div class="num-buy-box">
+                        <div class="main-lm">数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量:</div>
+                        <span class="num">
+                            <a href="javascript:void(0);" class="less"></a>
+                            <input type="text" value="1">
+                            <a href="javascript:void(0);" class="more"></a>
+                        </span>
+						<a href="#" class="buy-now">立即购买</a>
+                        <a href="javascript:void(0);" class="buy-cart">加入购物车</a>                       
+                    </div>
+	        	<!--授权-->
+	        		<div class="ensure-box">
+                        <span class="gfsq"><em></em>官方授权</span>
+                        <span class="zpbz"><em></em>正品保证</span>
+                        <span class="sdfh"><em></em>闪电发货</span>
+                        <span class="ltth"><em></em>60天退货</span>
+                    </div>
+	        	</div>
+			</div>
+			<!--热销爆品-->
+			<div  class="hot-goods">
+				<!--title-->
+				<div class="tit-wrap">
+					<span class="tit-con">热销爆品<em>HOT</em></span>
+				</div>
+				<!--content-->
+				<div class="detail-slide-box">
+				<!--箭头-->
+					<div class="arrow-box">
+	               		<a id="prev"><em></em></a>
+	               		<a id="next"><em></em></a>
+	            	</div>
+	            	<!--爆款图片内容-->
+	           		<div  class="slide-prd bd">
+	           		<div class="tempWrap">
+	           			<ul class="tempWrap_ul">           				
+	           			<!--第一个-->
+	           				<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第二个-->
+	           				<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第三个-->
+	           				<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第四个-->
+	           				<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第五个-->
+	           				<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第六个-->
+	           				<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第七个-->
+	           				<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第八个-->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第九个-->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第十个-->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第十一个-->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第十二个-->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第十三个-->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第十四个-->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!--第十五个-->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!-- 第十六个 -->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!-- 第十七个 -->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	                    <!-- 第十八个 -->
+	                    	<li class="clone">
+	                       		<a href="#" class="slide-prd-con">
+	                           		<span class="prd-img"><img src="../img/detials/01_200x200.jpg"></span>
+	                           		<p class="slide-prd-name">MAYBELLINE美宝莲眼部及唇部卸妆液70ml</p>
+	                       		</a>
+		                        <div class="price-box">
+		                           <span class="price-hd">￥<i>21.9</i></span>
+		                           <del class="price-mark">￥<i>29</i></del>
+		                        </div>
+	                    	</li>
+	            		</ul>
+	            	</div>
+	            </div>
+				</div>
+			</div>
+			<!--产品细则-->
+			<div class="detail-prd-con">
+				<!--左边-->
+				<div class="detail-con-l">
+					<!--标题-->
+					<div class="tmc_tit">
+                        <div class="tmc_con">
+                            <ul class="tit_ul" id="new_deal_tabs">
+                                <li class="cur"><a href="javascript:void(0)">商品参数</a></li>
+                                <li><a href="javascript:void(0)">产品详情</a></li>
+                                <li><a href="javascript:void(0)">产品实拍</a></li>                              
+                                <li><a href="javascript:void(0)" class="four">用户评论<em>(10555)</em></a></li>
+                                <li><a href="javascript:void(0)">萤草优势</a></li>
+                            	<div class="curBg"></div>
+                            </ul>
+                        </div>
+                    </div>
+                <!--广告图-->
+                	<div class="detail-con-ad">
+	                    <a href=""><img  src="../img/20170113115812035.jpg"></a>
+                	</div>
+				<!--商品参数-->
+					<div class="detail-con-tit">商品参数</div>
+					<div class="detail-data-box">
+                                    <p>
+                                        <span class="detail-item">商品名称：</span>
+                                        <span class="detail-item-con">
+                                            <span></span>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span class="detail-item">商品品牌：</span>
+                                        <span class="detail-item-con">
+                                                <a target="_blank" href="#"></a>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span class="detail-item">商品功效：</span>
+                                        <span class="detail-item-con">
+											<a href="#" target="_blank"></a>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span class="detail-item">商品包装：</span>
+                                        <span class="detail-item-con">
+                                            <span></span>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span class="detail-item">产地：</span>
+                                        <span class="detail-item-con">
+                                            <span></span>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span class="detail-item">保质期：</span>
+                                        <span class="detail-item-con">
+                                            <span></span>
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span class="detail-item">商品规格：</span>
+                                        <span class="detail-item-con">
+                                            <span>正常规格</span>
+                                        </span>
+                                    </p>
+                      			</div>
+                <!--产品详情-->
+                	<div class="detail-con-tit">产品详情</div>
+                	<div class="detail-con-box">
+                        <p><br></p>
+                        <p><img src="../img/detials/a006749-02.jpg"></p>
+                        <p><br></p>
+                        <p><br></p>
+                        <p><img src="../img/detials/a006749-05.jpg"></p>
+                    </div>
+                <!--使用方法-->
+                	<div class="detail-con-tit">使用方法</div>
+                	<div class="detail-con-box">
+                        <p>1、于护肤后取适量均匀涂抹于整个脸部。可作为底妆使用，使粉饼的上妆亮丽持久。</p>
+                        <p>2、用中指取适量的隔离霜，然后轻轻地压在两颊、额头、鼻子和下巴处，尽量不要有缝隙。轻轻拍均匀抹上隔离霜，慢慢地推展开到整个脸庞上，薄薄一层即可。</p>
+                        <p><br></p>
+                    </div>
+                <!--产品实拍-->
+                	<div class="detail-con-tit">产品实拍</div>
+                	<div class="detail-con-box">
+                        <p><img src="../img/detials/A006749-001.jpg"></p>
+                        <p><img src="../img/detials/A006749-002.jpg"></p>
+                        <p><img src="../img/detials/A006749-003.jpg"></p>
+                        <p><br></p>
+                    </div>
+                <!--品牌故事-->
+                	<div class="detail-con-tit">品牌故事</div>
+                	<p><img src="../img/detials/Jirui-ZA-pinpai.jpg" ></p>
+              	<!--萤草优势-->
+              		<div class="detail-con-tit" id="ttys">萤草优势</div>
+              		<div class="detail-con-box">
+              			<div class="pro_ys">
+              				<div class="conl_yingcao_youshi">
+              					<!--分类-->
+              					<ul class="conl_yingcao_youshi1">
+                                    <li id="ys1" class="">
+                                        <a href="javascript:void(0);" class="ds11">100%正品<br>100%信赖</a>
+                                    </li>
+                                    <li id="ys2" class="">
+                                        <a href="javascript:void(0);">品牌保证<br>官方授权</a>
+                                    </li>
+                                    <li id="ys3" class="">
+                                        <a href="javascript:void(0);">顶尖仓储<br>闪电发货</a>
+                                    </li>
+                                    <li id="ys4" class="">
+                                        <a href="javascript:void(0);">金牌客服<br>贴心客服</a>
+                                    </li>
+                                    <li id="ys5" class="">
+                                        <a href="javascript:void(0);">60天无条<br>件退换货</a>
+                                    </li>
+                                    <li id="ys6" class="">
+                                        <a href="javascript:void(0);">QQ网购<br>合作伙伴</a>
+                                    </li>
+                                    <li id="ys7" class="">
+                                        <a href="javascript:void(0);">美丽事业<br>百万口碑</a>
+                                    </li>
+                                    <li id="ys8" class="">
+                                        <a href="javascript:void(0);" style="width: 94px;">CCTV-2<br>合作网站</a>
+                                    </li>
+                                    <li id="ys9" class="">
+                                        <a href="javascript:void(0);">软银赛富<br>投资企业</a>
+                                    </li>
+                                </ul>
+              					<!--图片-->
+              					<div id="sy1" class="youshi1_1 " style="display: block;">
+              						<img src="../img/detials/ys_10.jpg">
+              						<img src="../img/detials/ys_11.jpg">
+              						<img src="../img/detials/ys_12.jpg">
+              						<img src="../img/detials/zs_fuwu2.jpg">
+              						<img src="../img/detials/zs_ziliang2.jpg">
+                                </div>
+                                <div id="sy2" class="youshi1_1 " style="display: none;">
+              						<img src="../img/detials/ys2_10.jpg">
+              						<img src="../img/detials/ys2_11.jpg">
+              						<img src="../img/detials/ys2_12.jpg">          						
+                                </div>
+                                <div id="sy3" class="youshi1_1 " style="display: none;">
+              						<img src="../img/detials/ys3_10.jpg">
+              						<img src="../img/detials/ys3_11.jpg">
+              						<img src="../img/detials/ys3_12.jpg">            						
+                                </div>
+                                <div id="sy4" class="youshi1_1 " style="display: none;">
+              						<img src="../img/detials/ys4_10.jpg">
+              						<img src="../img/detials/ys4_11.jpg">
+              						<img src="../img/detials/ys4_12.jpg">            						
+                                </div>
+                                <div id="sy5" class="youshi1_1 " style="display: none;">
+              						<img src="../img/detials/ys5_10.jpg">
+              						<img src="../img/detials/ys5_11.jpg">
+              						<img src="../img/detials/ys5_12.jpg">            						
+                                </div>
+                                <div id="sy6" class="youshi1_1 " style="display: none;">
+              						<img src="../img/detials/ys6_10.jpg">
+              						<img src="../img/detials/ys6_11.jpg">
+              						<img src="../img/detials/ys6_12.jpg">            						
+                                </div>
+                                <div id="sy7" class="youshi1_1 " style="display: none;">
+              						<img src="../img/detials/ys7_10.jpg">
+              						<img src="../img/detials/ys7_11.jpg">
+              						<img src="../img/detials/ys7_12.jpg">            						
+                                </div>
+                                <div id="sy8" class="youshi1_1 " style="display: none;">
+              						<img src="../img/detials/ys8_10.jpg">
+              						<img src="../img/detials/ys8_11.jpg">
+              						<img src="../img/detials/ys8_12.jpg">            						
+                                </div>
+                                <div id="sy9" class="youshi1_1 " style="display: none;">
+              						<img src="../img/detials/ys9_10.jpg">
+              						<img src="../img/detials/ys9_11.jpg">
+              						<img src="../img/detials/ys9_12.jpg">            						
+                                </div>
+              				</div>
+              			</div>
+              		</div>
+				</div>
+				<!--右边-->
+				<div class="detail-con-r">
+					<!--更多品牌-->
+					<div id="brand-container">
+						<div class="more-brand-box">
+            				<p class="more-brand-tit">更多品牌<em>MORE</em></p>
+            				<div class="more-brand-con">
+               					<span><a href="#" target="_blank">欧莱雅</a></span>
+               					<span><a href="#" target="_blank">玉兰油</a></span>                
+               					<span><a href="#" target="_blank">兰芝</a></span>              
+             					<span><a href="#" target="_blank">思亲肤</a></span>              
+               					<span><a href="#" target="_blank">娥佩兰</a></span>
+                				<span><a href="#" target="_blank">卡姿兰</a></span>
+                				<span><a href="#" target="_blank">梦妆</a></span>
+                				<span><a href="#" target="_blank">娜丽丝</a></span>             
+               					<span><a href="#" target="_blank">馥蕾诗</a></span>               
+               					<span><a href="#" target="_blank">悦诗风吟</a></span>               
+               					<span><a href="#" target="_blank">韩后</a></span>              
+               					<span><a href="#" target="_blank">索芙特</a></span>               
+           					</div>
+        				</div>
+					</div>
+					<!--排行榜-->
+					<div id="top-container">
+        				<div class="top-prd-box">
+            				<p class="top-prd-tit">护肤排行榜</p>
+            				<ul class="top-prd-li">  
+            				<!--第一个-->
+                				<li>          
+                    				<span class="top-mask"><em>1</em></span>                   
+                    				<div class="top-img"><a href="#"><img src="../img/detials/1_100x100.jpg"></a></div>
+                    				<div class="top-prd-txt">
+                    					<a href="" class="top-prd-name">
+                    						韩国clinie可莱丝nmf水酷针剂睡眠面膜15ml 进口
+                    					</a>
+                        				<div class="price-box">
+                        					<span class="price-hd">￥
+                        						<i jskuprice="" jshop="price">15.9</i>
+                        					</span> 
+                        					<del>￥<i jskuprice="" jshop="price">49</i></del> 										</div>
+                    				</div>
+                				</li>
+                			<!--第二个-->
+                				<li>          
+                    				<span class="top-mask"><em>2</em></span>                   
+                    				<div class="top-img"><a href="#"><img src="../img/detials/40844-001_100x100.jpg"></a></div>
+                    				<div class="top-prd-txt">
+                    					<a href="" class="top-prd-name">
+                    						韩国clinie可莱丝nmf水酷针剂睡眠面膜15ml 进口
+                    					</a>
+                        				<div class="price-box">
+                        					<span class="price-hd">￥
+                        						<i jskuprice="" jshop="price">15.9</i>
+                        					</span> 
+                        					<del>￥<i jskuprice="" jshop="price">49</i></del> 										</div>
+                    				</div>
+                				</li>
+                			<!--第三个-->
+                				<li>          
+                    				<span class="top-mask"><em>3</em></span>                   
+                    				<div class="top-img"><a href="#"><img src="../img/detials/50253_100x100.jpg"></a></div>
+                    				<div class="top-prd-txt">
+                    					<a href="" class="top-prd-name">
+                    						韩国clinie可莱丝nmf水酷针剂睡眠面膜15ml 进口
+                    					</a>
+                        				<div class="price-box">
+                        					<span class="price-hd">￥
+                        						<i jskuprice="" jshop="price">15.9</i>
+                        					</span> 
+                        					<del>￥<i jskuprice="" jshop="price">49</i></del> 										</div>
+                    				</div>
+                				</li>
+                			<!--第四个-->
+                				<li>                         
+                    				<div class="top-img"><a href="#"><img src="../img/detials/a003252-01_100x100.jpg"></a></div>
+                    				<div class="top-prd-txt">
+                    					<a href="" class="top-prd-name">
+                    						韩国clinie可莱丝nmf水酷针剂睡眠面膜15ml 进口
+                    					</a>
+                        				<div class="price-box">
+                        					<span class="price-hd">￥
+                        						<i jskuprice="" jshop="price">15.9</i>
+                        					</span> 
+                        					<del>￥<i jskuprice="" jshop="price">49</i></del> 										</div>
+                    				</div>
+                				</li>
+                			<!--第五个-->
+                				<li>                          
+                    				<div class="top-img"><a href="#"><img src="../img/detials/a010649-02_100x100.jpg"></a></div>
+                    				<div class="top-prd-txt">
+                    					<a href="" class="top-prd-name">
+                    						韩国clinie可莱丝nmf水酷针剂睡眠面膜15ml 进口
+                    					</a>
+                        				<div class="price-box">
+                        					<span class="price-hd">￥
+                        						<i jskuprice="" jshop="price">15.9</i>
+                        					</span> 
+                        					<del>￥<i jskuprice="" jshop="price">49</i></del> 										</div>
+                    				</div>
+                				</li>
+                			<!--第六个-->
+                				<li>                         
+                    				<div class="top-img"><a href="#"><img src="../img/detials/a021399_100x100.jpg"></a></div>
+                    				<div class="top-prd-txt">
+                    					<a href="" class="top-prd-name">
+                    						韩国clinie可莱丝nmf水酷针剂睡眠面膜15ml 进口
+                    					</a>
+                        				<div class="price-box">
+                        					<span class="price-hd">￥
+                        						<i jskuprice="" jshop="price">15.9</i>
+                        					</span> 
+                        					<del>￥<i jskuprice="" jshop="price">49</i></del> 										</div>
+                    				</div>
+                				</li>
+                			<!--第七个-->
+                				<li>                         
+                    				<div class="top-img"><a href="#"><img src="../img/detials/a021730_100x100.jpg"></a></div>
+                    				<div class="top-prd-txt">
+                    					<a href="" class="top-prd-name">
+                    						韩国clinie可莱丝nmf水酷针剂睡眠面膜15ml 进口
+                    					</a>
+                        				<div class="price-box">
+                        					<span class="price-hd">￥
+                        						<i jskuprice="" jshop="price">15.9</i>
+                        					</span> 
+                        					<del>￥<i jskuprice="" jshop="price">49</i></del> 										</div>
+                    				</div>
+                				</li>
+                			<!--第八个-->
+                				<li>                           
+                    				<div class="top-img"><a href="#"><img src="../img/detials/a026267-11_100x100.jpg"></a></div>
+                    				<div class="top-prd-txt">
+                    					<a href="" class="top-prd-name">
+                    						韩国clinie可莱丝nmf水酷针剂睡眠面膜15ml 进口
+                    					</a>
+                        				<div class="price-box">
+                        					<span class="price-hd">￥
+                        						<i jskuprice="" jshop="price">15.9</i>
+                        					</span> 
+                        					<del>￥<i jskuprice="" jshop="price">49</i></del> 										
+                        				</div>                   				
+                    				</div>
+                				</li>              
+            				</ul>
+        				</div>
+    				</div>
+				</div>			
+			</div>			
+		</div>
+		
+		<script type="text/javascript" src="../lib/jQuery/jquery-1.12.4.min.js" ></script>
+		<script type="text/javascript" src="../lib/jQuery/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="../lib/artTemplate/template-native.js" ></script>
+	    <script type="text/javascript" src="../js/detail.js"></script>
+	</body>
+</html>

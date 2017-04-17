@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/cart.css" />
+		<link rel="stylesheet" href="../css/public.css" />
+	</head>
+	<body>
+		<!--顶部-->
+		<div class="shop_head_bg">
+			<div class="shop_head">
+				<div class="shop_head_l">
+					<span class="shop_head_l_hy">								
+						<a class="second" href="register.html">[免费注册]</a>
+						<a class="user_exit" href="/">退出</a>
+						<a class="first" href="login.html">[请登录]</a> 		
+					</span>
+				</div>
+				<div class="shop_head_r">
+					<a href="#">帮助中心</a> | <span>客服专线 <font class="shop_head_kf">400 810 2211</font></span> 
+				</div>
+			</div>
+		</div>
+		<!--购物车-->
+		<div class="shop_car">
+			<!--头部-->
+			<div class="car_top1"></div>
+			<!--内容开始-->
+			<div id="cartTops" class="car_list">				
+			<!--没有商品时-->
+				<div class="car_noload">
+						<p>您的购物车暂时无任何商品，<a href="login.html">登录</a>后将显示您之前加入的商品</p>
+						<p>您还可以去<a href="../index.html" target="_blank">首页</a>挑选喜欢的商品</p>
+				</div>
+			<!--有商品时-->
+				<div id="cartshow">								
+				<!--头-->
+					<div class="car_list_top">
+						<!--全选框-->
+              			<span class="list_all">
+              				<input id="allSelect" type="checkbox">
+              			</span>
+			            <span class="list_top1">商品编号</span>
+			            <span class="list_top2">选购的商品</span>
+			            <span class="list_top3">单价</span>
+			            <span class="list_top4">购买数量</span>
+			            <span class="list_top5">金额小计</span>
+			            <span class="list_top6">操作</span>
+          			</div>
+				<!--内容-->
+					<div class="cartshow_all">
+						<div class="carshow">
+						<!--第一个-->
+							<div class="car_list_show hiddd">
+								<div class="car_list_show_con clearfix">
+									<input value="A012836_1" id="c_select_1" type="checkbox" class="choose">
+									<div class="car_list_show_num">A012836</div>
+		                 			<div class="car_list_show_img">
+		                 				<a href="#" target="_blank">
+		                 					<img src="../img/cart/cart1.jpg">
+		                 				</a>
+		                 			</div>
+		                 			<div class="car_list_show_text">
+		                 				<a href="#" target="_blank">相宜本草百合高保湿润养水150ml</a>
+		                 			</div>
+		                 			<div class="car_list_show_dj">
+		                 				<span class="xianjia"></span>
+		                 				<span class="yuanjia"></span>
+		                 			</div>
+		                 			<div id="e_1_1" class="car_list_show_jj">
+		                 				<span id="add_j_A012836" class="add_j"></span>
+		                 				<input id="pNum1" type="text" class="add_num" value="1">
+		                 				<span id="add_z_A012836" class="add_z" ></span>
+		                 			</div>
+		                 			<div class="car_list_show_je">
+		                 				<span class="heji"></span>
+		                 			</div>
+		                 			<div class="car_list_show_cz" id="dd_A012836">
+		                    			<a href="javascript:void(0);">删除</a>
+		                 			</div>
+	              				</div>
+							</div> 
+						</div>
+					</div>				
+				</div>	
+			</div>			
+		</div>	
+		<!--底部-->
+		<div class="car_bt_account">
+			<div class="car_bt_account_con" style="height:auto; padding:10px 0;">
+				<div class="car_list_total_left car_bt_account_left">
+					<input id="fd_checkedALL" type="checkbox" checked="checked">
+					<a href="javascript:void(0)">全选</a>
+					<a href="javascript:void(0)">删除选中的商品</a>
+				</div>
+				<div class="car_bt_account_right">
+					<a class="go_accounts" href="confirm.html">去结算</a>
+				</div>
+				<div class="car_bt_account_jg">
+					<span class="txt"><b>已选择<em>0</em>件商品</b></span>
+					<br>
+					<span class="txt">应付商品金额（不含运费）：</span>
+					<span class="price sumPrice"><em></em></span>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="../lib/jQuery/jquery-1.12.4.min.js" ></script>
+        <script type="text/javascript" src="../lib/jQuery/jquery.cookie.js"></script>
+        <script type="text/javascript" src="../js/cart.js"></script>
+	</body>
+</html>

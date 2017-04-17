@@ -1,0 +1,82 @@
+/*头部*/
+.shop_car{ width:998px; margin:0 auto 20px; position:relative; background:#fff; border:1px solid #e6e6e6; margin-bottom:90px; }
+.car_top1 { background:url(../img/cart/car_top_0518.jpg) no-repeat; height:97px; width:998px; position:relative; border-bottom:3px solid #646464}
+
+.car_list {  width:950px; margin:20px auto 0; height:auto}
+/*没有商品时*/
+.car_noload {background:#f9f9f9 url(../img/cart/car_04.png) no-repeat 220px 50px; border:1px solid #e6e6e6; padding:50px 0 0px 281px; height:98px; margin-bottom:20px; width:667px;display: none;}
+.car_noload p {color:#5a5a5a; font-size:12px; line-height:20px;font-family: "宋体";}
+.car_noload p a { color:#0142d5;font-family: "宋体";}
+
+/*有商品时*/
+/*顶部*/
+.car_list_top{ height:38px; line-height: 38px;background:url(../img/cart/scrol_bg2.jpg) repeat-x scroll;border:1px solid #d4d4d4; border-bottom:none;font-size:14px;}
+.car_list_top span { font-size:14px; font-weight:bold}
+.car_list .list_all{ float:left; padding-left:15px; margin-right:18px;}
+.car_list_top .list_top1 { width:174px; text-align:left; float:left;line-height: 34px;}
+.car_list_top .list_top2 { width:252px; text-align:left; float:left;line-height: 34px;}
+.car_list_top .list_top3 { width:126px; text-align:left; float:left;line-height: 34px;}
+.car_list_top .list_top4 { width:142px; text-align:left; float:left;line-height: 34px;}
+.car_list_top .list_top5 { width:136px; text-align:left; float:left;line-height: 34px;}
+.car_list_top .list_top6 { width:64px; text-align:left; float:left;line-height: 34px;}
+
+/*内容*/
+.carshow{ width:100%; height:auto; display:block; position:relative; margin-bottom:20px;}
+/*内容*/
+.car_list_show { border:1px solid #d4d4d4; height:auto; margin-top:-1px; width:948px;  }
+.car_list_show_con { padding:12px 0; height:58px; line-height:58px; }
+.car_list .choose{ margin-right:10px;float: left; height: 58px; margin-left: 15px;}
+/*编号*/
+.car_list_show_num{float:left; width:93px; text-align:center; color:#828282}
+
+/*图片*/
+.car_list_show_img { float:left; width:58px}
+.car_list_show_img img{ display:block; border:1px solid #d4d4d4;width:58px;height: 58px;}
+
+/*介绍*/
+.car_list_show_text { float:left; margin-left:20px; display:inline; width:190px; height:54px;  line-height:18px;overflow:hidden;}
+.car_list_show_text a {  color:#1A66B3}
+.car_list_show_text a:hover { color:#f51972}
+.car_list_show_dj { float:left; margin-left:70px; display:inline; width:60px; font-family:"微软雅黑"}
+/*价格*/
+.car_list_show_dj .xianjia { display: block; height: 22px; line-height: 22px; margin-top: 5px; }
+.car_list_show_dj .yuanjia { font-style: normal; color: #999; text-decoration: line-through; display: block; height: 22px; line-height: 22px; }
+
+/*数量增减*/
+.car_list_show_jj { float:left; margin-left:73px; display:inline; position:relative; width:66px; background:url(../img/cart/jj_05.png) no-repeat center 20px; height:58px;}
+.car_list_show_jj .add_j { display:block; width:15px; height:22px; float:left; cursor:pointer; margin-top:20px;}
+.car_list_show_jj .add_num { display:block; width:36px; height:22px; float:left; line-height:20px;  margin-top:20px; background:none; text-align:center; border:0;}
+.car_list_show_jj .add_z { display:block; width:15px; height:22px; float:left; cursor:pointer; margin-top:20px;}
+
+/*小计*/
+.car_list_show_je { float:left; margin-left:80px; width:120px; text-align:left; font-family:"微软雅黑"}
+.car_list_show_je .heji {height: 20px; line-height: 20px; margin-top: 5px; color: #F74172; font-size: 14px;}
+
+/*按钮*/
+.car_list_show_cz { float:left; margin-left:10px; width:65px; text-align:left; line-height:20px; padding-top:5px;}
+.car_list_show_cz a { cursor:pointer; color:#1A66B3;display: block;font-size: 14px;padding-top: 13px;}
+.car_list_show_cz a:hover { color:#f51972} 
+
+
+
+/*底部*/
+.car_bt_account{ position:fixed; width:100%;display:block; height:auto; bottom:0; padding-bottom:10px;left:0;background:#f7f7f7; border-top:1px solid #dedede; z-index:9;font-size: 14px;}
+.car_bt_account_con{ width:950px; margin:0 auto; display:block; background:#f7f7f7; height:auto; padding:10px 0; overflow: hidden;}
+/*左边*/
+.car_list_total_left{ width:300px; display:block; position:relative; float:left; margin-left:15px}
+.car_list_total_left input{ margin-right:10px; vertical-align:middle;}
+.car_list_total_left a{ display:inline-block; color:#222; margin-right:18px; padding-top:5px;}
+.car_list_total_left a:hover{ color:#f10582;}
+/*中间*/
+.car_bt_account_jg{color:#222; float: right; height: 52px; line-height: 26px; margin: 0px 20px 0 10px;width: auto;}
+.car_bt_account_jg .txt{color: #222; float: left; text-align: right; width: 200px;}
+.car_bt_account_jg .txt b{ font-weight:normal; padding-right:25px;}
+.car_bt_account_jg .txt b em{color:#f51972; font-style: normal; padding:0 3px; font-weight:bold}
+.car_bt_account_jg .price{display:inline-block; text-align: right;}
+.car_bt_account_jg .sumPrice{color:#f51972; font-size: 16px; font-weight:bold; font-style: normal;}
+.car_btn_alljs{border:1px solid #dedede; float:left}
+
+/*右边*/
+.car_bt_account_right{width:275px; display:block; position:relative; height:40px;float: right;padding-left:20px;}
+.car_bt_account_right a{width:120px; height:36px; line-height:36px; text-align:center; color:#fff; background:#f51972; font-size:14px; font-weight:bold; display:inline-block; border-radius:3px; margin-left:10px;}
+.car_bt_account_right a:hover{ background:#eb1a5b; color:#fff;}

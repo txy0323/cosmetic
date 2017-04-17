@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>确认订单</title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/confirm.css" />
+		<link rel="stylesheet" href="../css/public.css" />
+	</head>
+	<body>
+		<!--顶部-->
+		<div class="box"></div>
+		<div class="shop_head_bg">
+			<div class="shop_head">
+				<div class="shop_head_l">
+					<span class="shop_head_l_hy"></span>
+					<a class="ying" href="/">我的萤草</a>
+					<a class="user_exit" href="/" style="margin-left: 20px">[退出]</a>
+				</div>
+				<div class="shop_head_r">
+					<a href="#">帮助中心</a> | 
+					<span>客服专线 <font class="shop_head_kf">400 810 2211</font></span> 
+				</div>
+			</div>
+		</div>
+		<!--确认订单-->
+		<div class="shop_car">
+		<!--头部-->
+			<div class="car_top2"></div>
+		<!--收货地址-->
+			<div class="car_hd_address">
+				<p class="car_hd_address_top">收货地址：</p>
+				<div class="car_hd_address_con">
+					<ul id="ad_list" class="car_hd_address_con_list">
+						<li class="car_hd_address_con_show">
+							<div class="hd_address_con1">
+								<p class="address_name">
+									<span class="name1"></span>
+									<span class="name2"></span>
+									<span class="name3"></span>
+									<span class="name4">
+										<i></i><del></del><i></i>										</span> 
+								</p>
+								<p class="address_con"><b></b></p>
+								<p class="address_tel"><span></span></p>
+							</div>
+							<div class="hd_address_con2">
+								<span class="bj_ad" style="display:none;">编辑地址</span>
+								<span class="bj_ff"></span>
+							</div>
+						</li>
+					</ul>
+					<div class="car_hd_address_add"><a>添加收货地址</a></div>
+				</div>
+			</div>			
+		<!--支付方式-->
+			<div class="car_way_dash_line"></div>
+			<div class="car_pay2">
+				<p class="car_hd_address_top">支付方式：
+					<a href="javascript:void(0);">[修改]</a>
+					<div  class="zf_ps">
+						<p class="zf_ps_pay">在线支付（<span>支付宝</span>）</p>
+					</div>
+				</p>
+			</div>
+			<div id="car_fgx" class="car_way_dash_line"></div>		
+		<!--购物清单-->
+			<!--头-->
+			<div class="car_gw_list_l">
+				<span>购物清单：</span>
+				<a href="cart.html">‹‹返回修改购物车</a> 
+			</div>
+			<!--表内容-->
+			<div class="car_gw_list">
+				<table cellpadding="0" cellspacing="0">
+					<tbody class="tbodylist">
+						<tr class="car_gw_list_top">
+							<td width="110">商品编号</td>
+							<td width="420">商品名称</td>
+							<td width="130">赠送积分</td>
+							<td width="94">单价</td>
+							<td width="62">商品数量</td>
+							<td width="132">金额小计</td>
+						</tr>
+						<tr class="pro_list">
+							<td width="110" class="car_gw_list_id">A012836</td>
+							<td width="420" align="left" class="car_gw_list_name">
+								<span></span>
+								<a href="" target="_blank" class="car_gw_list_introduce">相宜本草百合高保湿润养水150ml</a>
+							</td>
+							<td width="130">181</td>
+							<td width="100" class="car_gw_list_price"><em>￥</em>89.00</td>
+							<td width="62" class="car_gw_list_amount">2</td>
+							<td width="126" class="car_gw_list_money"><em>￥</em>178.00</td>
+						</tr>
+						<!-- <tr class="">
+							<td width="110">A025524</td>
+							<td width="420" align="left" class="car_gw_list_name">
+								<span></span>
+								<a href="#" target="_blank">韩束秘密补水超值组三件套（秘蜜水凝乳150ml+墨...</a>
+							</td>
+							<td width="130">138</td>
+							<td width="100"><em>￥</em>139.00</td>
+							<td width="62">1</td>
+							<td width="126" class="car_gw_list_money"><em>￥</em>139.00</td>
+						</tr>
+						<tr class="">
+							<td width="110">A012233</td>
+							<td width="420" align="left" class="car_gw_list_name">
+								<span></span>
+								<a href="#" target="_blank">LOREAL欧莱雅清润葡萄籽特润凝霜50ml</a></td>
+							<td width="130">158</td>
+							<td width="100"><em>￥</em>159.00</td>
+							<td width="62">1</td>
+							<td width="126" class="car_gw_list_money"><em>￥</em>159.00</td>
+						</tr>
+						<tr class="">
+							<td width="110">A027319</td>
+							<td width="420" align="left" class="car_gw_list_name">
+								<span></span>
+								<a href="#" target="_blank">一叶子植物·酵素鲜补水保湿美容液（倍润型）120m...</a></td>
+							<td width="130">145</td>
+							<td width="100"><em>￥</em>145.00</td>
+							<td width="62">1</td>
+							<td width="126" class="car_gw_list_money"><em>￥</em>145.00</td>
+						</tr>
+						<tr class="">
+							<td width="110">A027324</td>
+							<td width="420" align="left" class="car_gw_list_name">
+								<span></span>
+								<a href="#" target="_blank">一叶子植物·酵素鲜补水保湿眼霜25g</a></td>
+							<td width="130">138</td>
+							<td width="100"><em>￥</em>139.00</td>
+							<td width="62">1</td>
+							<td width="126" class="car_gw_list_money"><em>￥</em>139.00</td>
+						</tr> -->
+					</tbody>
+				</table>
+			</div>
+		
+		<!--配送余额优惠-->
+			<div class="car_yhq">
+				<div id="showNewPost">
+					<p class="car_yhq_ye">
+						<span class="lot_tt">(-)配送方式</span>
+					</p>
+					<div class="car_express">
+						<p class="car_express_t">
+							<span>快递送货上门</span>
+							<span>免运费</span>
+							<span>工作日、双休日与假日均可送货</span>
+						</p>
+					</div>
+				</div>
+				<p class="car_yhq_ye">
+					<span id="ShowScore">(+)使用余额</span>
+				</p>
+				<p class="car_yhq_ye">
+					<span id="ShowScore">(+)使用优惠券抵消金额</span>
+				</p>		
+			</div>	
+		
+		<!--付款-->
+			<div class="car_yhq_sub">
+				<p class="car_yhq_sub_price"><em>1</em>个订单，应付总额：
+					<i id="orderSumTotal"></i>
+				</p>
+				<p><input type="button" value="提交订单" id="mybtn"></p>
+			</div>
+		</div>
+		
+		<!--问卷-->
+		<div class="icon_survey">
+			<a href="#" target="_blank"></a>
+		</div>
+		<!--客服-->
+		<div class="icon_service">
+			<a href="javascript:void(0)"></a>
+		</div>
+		
+		<!-- 收货地址弹出层 -->
+		<div class="car_address_revise">
+			<div class="car_address_revise_con">
+			<!-- 标题 -->
+				<div class="car_address_revise_t">
+					<div class="car_address_revise_t_top">收货地址：<input type="hidden" id="hd_id"></div>
+					<span class="car_address_revise_t_close"></span>
+				</div>
+			<!-- 内容 -->
+				<div class="car_address_revise_m">
+				<!-- 信息 -->
+					<ul class="car_address_revise_m_con">
+						<li>
+							<span class="zc"><s>收货人：</s><em>*</em></span>
+							<input id="name" type="text" class="adr_people">
+							<span class="getname"></span>
+						</li>
+						<li>
+							<span class="zc"><s>选择地区：</s><em>*</em></span>
+							<select id="province"></select>
+							<select id="city"></select>
+							<select id="district"></select>
+						</li>
+						<li>
+							<span class="zc"><s>详细地址：</s><em>*</em></span>
+							<input id="address" type="text" class="adr_infor">
+							<b class="address">不需要重复填写省/市/区</b>
+						</li>
+						<li>
+							<span class="zc"><s>手机：</s><em>*</em></span>
+							<input id="mobile" class="adr_people" type="text" maxlength="15">
+							<span class="mobile"></span>
+						</li>
+					</ul>
+				<!-- 按钮 -->
+					<div class="car_address_revise_m_btn">
+						<input class="car_address_revise_btn1" value="确认收货信息" type="button">
+						<input class="car_address_revise_btn2" value="取消" type="button"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		
+		<script type="text/javascript" src="../lib/jQuery/jquery-1.12.4.min.js" ></script>
+		<script type="text/javascript" src="../lib/jQuery/jquery.cookie.js"></script>
+	    <script type="text/javascript" src="../js/confirm.js"></script>
+		  
+	    </script>
+	</body>
+</html>

@@ -1,0 +1,92 @@
+body {line-height:24px;background:#fcfafd;}
+.clear { clear:both; font-size:0; overflow:hidden; height:0}
+
+/*头部*/
+.load_wrap {width:100%}
+.load_top {padding-left:11px; width:989px; margin:0 auto; height:60px; padding-top:40px;}
+.top_l{ float:left;}
+.top_l .top_l1{width: 200px; height: 60px; float: left; padding-right: 13px; border-right: 1px solid #d2d0d3;}
+.top_l .top_l1 a{float: left;}
+.top_l .top_l2{ float:left; line-height:60px; padding:0 15px; color:#626262; font-size:20px;}
+.top_r{ float:right; margin-top:15px;}
+.top_r li{ float:left; width:140px; height:30px; line-height:30px; font-size:14px; color:#313131}
+.top_r li.top_r1{background:url(../img/login/load1101.png) no-repeat -389px -59px; padding-left:40px; width:100px;}
+.top_r li.top_r2{ background:url(../img/login/load1101.png) no-repeat -389px -90px; padding-left:40px; width:100px;}
+.top_r li.top_r3 { background:url(../img/login/load1101.png) no-repeat -389px -121px; padding-left:40px; width:100px;}
+
+/*内容*/
+.load_con{ width:1000px; margin:50px auto 0}
+
+/*左边*/
+.load_con_l{ width:544px; height:450px; float:left; padding-left:10px}
+.load_con_l a img{width:544px; height:450px; float:left;}
+
+/*右边*/
+.load_con_r{ width:402px; float:left; background:url(../img/login/load1101.png) no-repeat 6px -56px; padding-left:34px;}
+.r_con{ width:340px; height:420px; padding:60px 0 0 60px; border:1px solid #d2d0d3; background:#fff url(../img/login/load1101.png) no-repeat 0 -469px;}
+.r_con_p{padding:0 0 0 60px; height:480px;}
+
+/*尾部*/
+.load_foot{ width:1000px; margin:60px auto 0}
+.load_foot p{ height:24px; line-height:24px; text-align:center; color:#898989}
+.load_foot p span{color: #898989;padding: 0 6px;}
+.load_foot p a{color:#898989;}
+.load_foot p a:hover{ color:#f51972}
+
+
+/*登陆页面*/
+/* 普通登录 */
+.r_con .check_box{width:100%; height:37px; margin-bottom:25px; overflow:hidden;}
+.r_con .check_box span{display:block; float:right; background:url(../img/login/login_img.png) no-repeat;}
+.r_con .check_box .login_tip{width:100px; height:25px; margin-top:10px; background-position:-15px -14px; color:#ff94ae; line-height:24px; text-align:center; font-size:12px;}
+.r_con .check_box .login_img{width:37px; height:37px; background-position:-20px -81px; cursor:pointer;}
+.r_con .check_box .login_img:hover{background-position:-20px -132px;}
+/*扫码登录*/
+
+/*登录用户名密码框*/
+.r_con .cell { width:280px; height:40px; position:relative; margin-bottom:24px;}
+.r_con .cell label {font-size:14px;padding:0 15px;  color:#aaa; cursor:text; line-height:38px;position:absolute; left:0; top:0; z-index:1}
+.r_con .cell .text{width:248px; height:38px; color:#000; font-size:14px; padding:0 15px; color:000; font-size:14px; border:1px solid #cfcfd1;border-radius:3px;  line-height:38px; position:absolute; left:0; top:0}
+.r_con .cell .word{width: 248px;height:18px; display: block;position: absolute;bottom:-18px;line-height: 18px;color: black}
+/*登陆记住密码*/
+.r_con .r_rem { height:13px; margin-bottom:24px;}
+.r_con .r_rem .r_rem1 { float:left; background:url(../img/login/load1101.png) no-repeat -406px -197px;  height:25px; line-height:14px; padding-left:20px; float:left; color:#666; margin-right:5px; cursor:pointer}
+.r_con .r_rem .r_rem2 { color:#666;height:14px; line-height:14px;padding-left: 8px;}
+.r_con .r_rem .r_rem2:hover{color:#f51972}
+
+/*登录按钮注册链接*/
+.r_con .r_load {line-height:40px; height:40px; margin-bottom:24px;}
+.r_con .r_load_btn { background:url(../img/login/load1101.png) no-repeat -34px -64px; border:0; font-size:15px; width:140px; height:40px; font-family:microsoft yahei;  text-align:center; color:#fff; cursor:pointer; float:left; margin-right:60px;}
+.r_con .r_reg .r_load_btn { margin-right:10px;}
+.r_con .re_ok .r_load_btn { margin-left:70px;margin-right:0px;}
+.r_con .r_load_zc { float:left; color:#f51972; font-size:14px}
+.r_con .r_other {color:#808080;}
+.r_con p.r_other1 { height:24px; line-height:24px;margin-top: 40px}
+.r_con p.r_other2 { margin-top:5px;}
+.r_con p.r_other2 a { background:url(../img/login/load1101.png) no-repeat; float:left; margin-right:10px; width:24px; height:24px;}
+.r_con p.r_other2 a.ro1 { background-position:-57px -192px;}
+.r_con p.r_other2 a.ro2 { background-position:-81px -192px;} 
+.r_con p.r_other2 a.ro3 { background-position:-105px -192px;} 
+.r_con p.r_other2 a.ro4 { background-position:-129px -192px;} 
+.r_con p.r_other2 a.ro5 { background-position:-153px -192px;} 
+.r_con p.r_other2 a.ro6 { background-position:-177px -192px;} 
+.r_con p.r_other2 a.ro1:hover { background-position:-57px -168px;}
+.r_con p.r_other2 a.ro2:hover { background-position:-81px -168px;}
+.r_con p.r_other2 a.ro3:hover { background-position:-105px -168px;}
+.r_con p.r_other2 a.ro4:hover { background-position:-129px -168px;}
+.r_con p.r_other2 a.ro5:hover { background-position:-153px -168px;}
+.r_con p.r_other2 a.ro6:hover { background-position:-177px -168px;}
+
+
+/*注册页面*/
+.load_con_r .re_back{ padding-top:20px;}
+.re_back_link{ height:30px; color:#666; text-align:right; line-height:30px; padding-right:60px;}
+.re_back_link a{ color:#f51972}
+.r_con .vcode .text{ width:120px;}
+.r_con .vcode .c_img { width:130px; height:38px; border:1px solid #cfcfd1;border-radius:3px; position:absolute; left:123px; top:0;}
+.r_con .vcode .c_img img{height:38px; width:130px;}
+.r_con .vcode .c_ts{ width:50px; height:40px;  position:absolute; left:263px; top:3px; line-height:18px;}
+.r_con .vcode .c_ts a{ color:#666666}
+.r_con .vcode .c_ts a:hover{color:#f51972}
+.r_con_sd{ background:url(../img/login/load1101.png) no-repeat 0 -35px; height:22px; width:400px;}
+.r_con .cell_xy{margin-bottom: 10px;height:20px;margin-top:-10px}

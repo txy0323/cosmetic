@@ -1,0 +1,118 @@
+/*蒙板*/
+.box{background-color: black; opacity:0.5;width: 100%; height: 100%; position:fixed;z-index:99;display: none;}
+/*头部*/
+.shop_car{ width:998px; margin:0 auto 20px; position:relative; background:#fff; border:1px solid #e6e6e6; margin-bottom:90px; }
+.car_top2{background: url(../img/cart/car_top2_0518.jpg) no-repeat;height:97px; width:998px; position:relative; border-bottom:3px solid #646464}
+.ying{margin-left: 20px}
+
+/*收货地址*/
+.car_hd_address { width:930px; margin:20px auto 0; padding-left:20px;}
+.car_hd_address_top { font-family:"宋体"; color:#000; font-size:14px; font-weight:bold; line-height:30px;}
+.car_hd_address_con { width:885px; padding-top:10px; padding-left:45px;}
+.car_hd_address_con_list{ height:98px; overflow:hidden; position:relative}
+.car_hd_address_con_show{ width:263px; cursor:pointer; height:72px; padding:8px; margin:0 10px 10px 0; display:inline; position:relative; float:left;border:2px solid #ffc5b6;  padding:7px;}
+
+
+/*第一排*/
+.address_name { line-height:22px; color:#323232; height:24px;}
+.address_name .name1 { font-size:14px; float:left; color:#323232; width:42px; white-space:nowrap; overflow:hidden; margin-right:12px}
+.address_name .name2 { font-size:14px; float:left; color:#323232; width:42px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;margin-right:12px}
+.address_name .name3 { font-size:14px; float:left; color:#323232; width:42px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;margin-right:12px}
+.address_name .name4 { font-size:12px; float:left; margin-right:15px; color:#323232; color:#666;}
+.address_name .name4 del { float:left; text-overflow:ellipsis; margin-right:5px; white-space:nowrap; overflow:hidden; text-decoration:none}
+.address_name .name4 i { font-style:normal; float:left}
+/*第二排*/
+.address_con { line-height:26px; font-size:13px; color:#646464; width:260px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+/*第三排*/
+.address_tel { line-height:20px; color:#646464;}
+.address_tel span { margin-right:5px;}
+
+/*右下角*/
+.bj_ff{  position:absolute; z-index:10; background:url(../img/cart/car_nike.jpg) no-repeat; right:0px; bottom:0px; width:19px; height:21px;}
+.bj_ad{ cursor:pointer; padding-left:14px; height:18px; line-height:18px; color:#ffc5b6; position:absolute; right:21px; bottom:0px;}
+
+/*添加收货地址*/
+.car_hd_address_add { background:url(../img/cart/car_hd_14.jpg) no-repeat 0 2px; height:14px; line-height:14px; padding-left:14px; width:90px;}
+.car_hd_address_add a{color:#1A66B3; cursor:pointer;}
+.car_hd_address_add a:hover{color:#f51972}
+
+
+/*虚线*/
+.car_way_dash_line { border-bottom:1px dashed #969696; margin:0 25px; clear:both; height:1px; font-size:0;margin-top:20px;}
+.car_gw_list_l{ padding:20px 40px 0 40px; color:#888; font-weight:normal}
+
+/*支付方式*/
+.car_pay2 { border:1px solid #fff; background:#fff; padding:19px; width:910px;  margin:0px auto 0; }
+.car_hd_address{ width:930px; margin:20px auto 0; padding-left:20px;}
+.car_hd_address_top{font-family:"宋体"; color:#000; font-size:14px; font-weight:bold; line-height:30px;}
+.car_hd_address_top a { margin-left:7px; color:#1A66B3; cursor:pointer; font-weight:normal; font-size:12px; }
+.car_hd_address_top a:hover { color:#f51972}
+.zf_ps { padding-left:45px; line-height:24px;}
+.zf_ps .zf_ps_ps span { margin-right:10px;}
+
+/*购物清单*/
+/*头*/
+.car_gw_list_l{ padding:20px 40px 0 40px; color:#888; font-weight:normal}
+.car_gw_list_l span{ color:#000; font-weight:bold; font-size:14px;}
+.car_gw_list_l a{ float:right; color:#1A66B3;  font-family:Verdana; font-size:12px; font-weight:normal}
+.car_gw_list_l a:hover { color:#f51972}
+/*内容*/
+.car_gw_list{ padding-bottom:15px;margin-top: 10px; background:#fff; width:950px; margin:20px auto 0;}
+.car_gw_list table{ width:880px; margin-left:45px; border:1px solid #e6e6e6; border-collapse:collapse;}
+.car_gw_list table td { border:1px solid #e6e6e6; border-left:none; border-right:none; height:33px; font-size:12px; color:#666; text-align:center; line-height:33px; }
+.car_gw_list .car_gw_list_top{background:#f0f0f0; color:#323232;}
+.car_gw_list .car_gw_list_top td { font-family:"宋体"; font-size:12px; color:#000; font-weight:bold}
+.car_gw_list table{ width:920px; display:block; margin:0 auto;}
+
+/*配送余额优惠*/
+.car_yhq{ width:920px; padding-left:0; margin-top:15px; padding-bottom:10px;margin-left:40px;}
+.car_yhq_ye {color:#f51972; line-height:30px; clear:both}
+.car_yhq_ye span{cursor:pointer; width:70px}
+.car_express{ font-size:12px; color:#333;}
+.car_express_t{ padding-left:15px; height:30px; line-height:30px;}
+.car_express_t span{ padding-right:50px;}
+
+/*付款*/
+.car_yhq_sub{ border-top:1px solid #ccc; width:950px; padding:0px; padding-top:15px; height:auto; padding-bottom:20px;}
+.car_yhq_sub p{ padding-bottom:10px; display:block; width:100%; height:auto; text-align:right;}
+.car_yhq_sub_price{ color:#333; font-size:18px;font-family:"微软雅黑";}
+.car_yhq_sub_price em,.car_yhq_sub_price i{ color:#f10582; font-style: normal;  font-size:16px; font-weight:bold;}
+.car_yhq_sub_price em{ padding:0 4px;}
+.car_yhq_sub_price i{ font-size:28px;}
+.car_yhq_sub input{float:none; width: 125px;height: 37px;padding-bottom: 3px;line-height: 37px;background-color: #f51972;color: white;font-family:"微软雅黑";font-size: 20px;border-radius: 3px;cursor: pointer;}
+
+
+/*问卷*/
+.icon_survey{bottom:130px; height:50px; left:50%; margin-left:520px; overflow: hidden; position: fixed;}
+.icon_survey a{background: url(../img/sidebar/survey50X50.jpg) no-repeat; cursor:pointer; display:block; height:50px; width:51px;}
+/*客服*/
+.icon_service{ width: 51px; height: 50px;  overflow:hidden; position:fixed; left: 50%; margin-left: 520px; bottom:75px; z-index: 999;}
+.icon_service a{ cursor: pointer;  display:block; width: 51px; height: 50px; background:url(../img/login/backtop.png) no-repeat 0 -104px; }
+.icon_service a:hover{ background-position: 0 -156px;}
+
+
+/*收货弹出层*/
+.car_address_revise { position:fixed; z-index:1000; left:10%; top:30%; width:962px; overflow:hidden;display: none;}
+.car_address_revise_con { width:962px; position:relative}
+.car_address_revise_t_top {height:26px; border-bottom:2px solid #f51952; font-size:14px; color:#000; overflow:hidden; position:absolute; top:30px; left:6px; width:930px; padding-left:10px;}
+.car_address_revise_t { background:url(../img/cart/cd1.png) no-repeat; width:962px; overflow:hidden; height:58px;}
+.car_address_revise_t_close { height:40px; width:40px; position:absolute; right:0px; top:0; cursor:pointer}
+.car_address_revise_m {width:951px; overflow:hidden;background-color: white}
+.car_address_revise_m_con { width:850px; margin:15px auto 10px; height:auto; overflow:hidden}
+.car_address_revise_m_con li { height:24px; margin-top:8px; line-height:24px;color:#5a5a5a; overflow:hidden}
+.car_address_revise_m_con li span.zc { float:left; width:100px; text-align:right; margin-right:10px; display:inline; overflow:hidden; font-family: "微软雅黑"}
+.car_address_revise_m_con li span{float: left; text-align: center;margin-left:5px; height: 22px}
+.car_address_revise_m_con li s{float:right; font-style:normal; text-decoration:none}
+.car_address_revise_m_con li span em{font-style:normal; color:#f51952; font-size:12px; line-height:28px; float:right  }
+.car_address_revise_m_con li .adr_people { height:22px; border:1px solid #e6e6e6; width:148px; margin-right:10px; float:left; line-height:22px; overflow:hidden}
+/*地区*/
+.car_address_revise_m_con li select { height:22px; border:1px solid #e6e6e6; margin-right:10px; float:left; overflow:hidden;}
+/*详细地址*/
+.car_address_revise_m_con li .adr_infor {  height:22px; border:1px solid #e6e6e6;line-height:22px;  width:300px; margin-right:10px; overflow:hidden; float:left}
+.car_address_revise_m_con li b { font-weight:normal;color:#969696;}
+
+/*按钮*/
+.car_address_revise_m_btn { width:850px; margin:0px auto 20px; clear:both; padding-left:60px;}
+.car_address_revise_btn1 { background:url(../img/cart/wc_2.jpg) no-repeat; width:115px; height:28px; color:#fff; font-family:"微软雅黑"; font-size:14px; margin-right:10px; padding-bottom:3px; cursor:pointer}
+.car_address_revise_btn2 { background:url(../img/cart/sh_20.jpg) no-repeat; width:75px; height:28px; color:#000; font-size:14px; padding-bottom:3px; cursor:pointer}
+.car_address_revise_b { background:url(http://img.tiantian.com/shop-img/cd3.png) repeat-y; width:962px; overflow:hidden; height:8px}

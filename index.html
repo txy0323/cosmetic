@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/public.css" />
+	</head>
+	<body>
+		<!--头-->
+		<div class="header_wrap">
+			<!--头顶部-->
+		<div class="bg_head_s">
+			<div class="head_s">
+				<!--左侧-->
+            	<div class="s_left">
+            		<!--手机萤草网-->
+                	<dl class="s_node">
+                		<dt>
+                			<a href="javascript:void(0);">
+                				<span class="icon_header header_phone"></span>
+                				手机萤草网
+                			</a>
+                		</dt>
+                	</dl>  
+                	<!--公告-->
+        			<div class="top_notice">
+                		<a title="公告" target="_blank" href="#" class="banner_link">公告：萤草网防诈骗提醒</a>
+          			</div>
+          			<!--消费者-->
+            		<div class="head-gzs">
+                    	<a href="#" target="_blank">消费者告知书</a>
+            		</div>
+            	</div>
+   				<!--右侧-->
+   				<div class="s_right ">
+   					<span class="userInfo">
+	                	<a href="#" target="_blank" class="nav-zheng">正品保证</a>
+	                	<a href="html/login.html" target="_blank" class="user_login ">登录</a>
+	                	<a href="html/register.html" target="_blank" class="user_reg ">注册</a>
+                    <a href="index.html" target="_blank" class="user_exit ">退出</a>
+                </span>
+          <!--我的萤草-->
+                <dl class="s_node s_my">
+                    <dt><a href="#">我的萤草<i class="i_sj"></i></a></dt>
+                  <!--  <dd style="display: block;">
+                        <ul> 
+                            <li class="s_list">
+                                <a title="我的订单" target="_blank" href="#">我的订单</a>
+                            </li>
+                            <li class="s_list">
+                                <a title="我的积分" target="_blank" href="#">我的积分</a>
+                            </li>
+                        </ul>
+                    </dd>-->
+                </dl>
+                <!--客户服务-->
+                <dl class="s_node s_more">
+                    <dt><a href="javascript:void(0);">客户服务<i class="i_sj"></i></a></dt>
+                   <!-- <dd style="width: 88px; display: none;">
+                        <ul>
+                            <li class="s_list">
+                                <a href="#" target="_blank">帮助中心</a>
+                            </li>
+                            <li class="s_list">
+                                <a href="#" target="_blank">正品承诺</a>
+                            </li>
+                            <li class="s_list">
+                                <a href="#" target="_blank">售后服务</a>
+                            </li>
+                            <li class="s_list">
+                                <a href="#" target="_blank">购物流程</a>
+                            </li>
+                        </ul>
+                    </dd>-->
+                </dl>
+            </div> 
+		</div>	
+		</div>
+			<!--头中部-->
+			<div class="head_t">
+				<!--logo-->
+				<div class="t_logo">
+					<a href="#" target="_blank"></a>
+				</div>
+        <!-- 天气 -->
+        <div class="weather" style="display: none">
+          <span class="city">成都</span>
+          <span class="centigrade">5℃~10℃</span>
+          <span class="wea">阴转晴</span>
+        </div>
+				<!--购物车-->
+				<div class="t_cart" id="carthover">
+					<dl>
+		                <dt>
+		                	<a href="html/cart.html"><span class="ico"></span>购物车(<em id="buy_numb" class="buy_num">0</em>)<i class="i_sj"></i></a>
+		                </dt>
+		                <!--<dd class="car_con" id="shopingTorlleyContent">
+		                	<p class="car_none">购物车中还没有商品，赶紧选购吧</p>
+		                </dd>-->
+	                </dl>
+            	</div>			
+				<!--搜索框-->
+				<div class="t_scan">
+					<!--框-->
+	                <div class="t_scan_s">
+	                    <div class="twitter-typeahead">
+	                    	<input type="text" class="search_input" id="keyword">
+	                    </div>
+	                    <input type="button" value="搜索" class="search_btn" id="btn-search">
+	                </div>
+	                	<!--搜索框下链接-->
+	                <div class="t_scan_a">
+	                	<a href="#" target="_blank">199减100</a>
+	                	<a href="#" target="_blank">面膜</a>
+	                	<a href="#" target="_blank">补水保湿</a>
+	                	<a href="#" target="_blank">眼霜</a>
+	                	<a href="#" target="_blank">营养保健</a>
+	                	<a href="#" target="_blank">国际轻奢</a>
+	                	<a href="#" style="color:#FF0000;" target="_blank">买了卖</a>
+	                </div>
+           	 	</div>
+			</div>
+			<!--头底部-->
+			<div class="head_d">
+       			<div class="head_d_con">
+       				<!--底部左边-->
+       				<div class="d_con_left">
+	       				<!--首页-->
+	       				<div class="ind">
+		                    <a href="index.html" class="t_nav_f">首页<span class="btm"></span></a><em></em>
+	               		</div>
+	               		<!--首页右边-->
+	               		<div class="t_nav_menu">
+		                    <a href="html/list.html">进口免税店<span class="btm"></span></a><em></em>
+		                    <a href="html/list.html">美妆商城<span class="btm"></span></a><em></em>  
+		                    <a href="html/list.html">品牌闪购<span class="btm"></span></a><em></em>
+		                    <a href="html/list.html">免费试用<span class="btm"></span></a>
+	               		</div>
+       				</div>
+       				<!--底部右边-->
+       				<div class="d_con_right">
+                		<a href="#">企业采购</a><em></em>
+                		<a href="#">品牌导航</a><em></em>
+               			<a href="#">积分商城</a>
+            		</div>
+       			</div>
+			</div>
+      </div>
+	
+		<!--广告轮播-->
+		<div class="banner_bg">
+			<!--广告图-->
+			<div class="banner">
+	        	<ul id="carousel">
+	            	<li><img src="img/banner/bn1_02.png"></li>
+	            	<li><img src="img/banner/bn2_02.png"></li>        
+	            	<li><img src="img/banner/bn3_02.png"></li>        
+	            	<li><img src="img/banner/bn4_02.png"></li>        
+	            	<li><img src="img/banner/bn5_02.png"></li>                 	
+	      		</ul>
+      		</div>
+      		<!--小圆点-->
+	        <div id="slidebutton" class="banner_btn2">
+		        <span class="">•</span>
+		        <span class="">•</span>
+		        <span class="">•</span>
+		        <span class="">•</span>
+		        <span class="">•</span>
+	        </div>
+    	</div>  	
+    	<!--保障-->
+    	<div class="safeguard">
+	        <div class="safe_con">
+	            <div class="index_zp">
+	                <a href="#">
+	                    <span class="icon"></span>
+	                    <span class="text">
+	                        <b>
+	                            <i>正品化妆品限时闪购</i><br>
+	                            100%正品闪购 值得信赖
+	                        </b>
+	                    </span>
+	                </a>
+	            </div>
+	            <div class="index_ms">
+	                <a href="#">
+	                    <span class="icon"></span>
+	                    <span class="text">
+	                        <b>
+	                            <i>中国美妆电商第一股</i><br>
+	                            	股票代码：834717
+	                        </b>
+	                    </span>
+	                </a>
+	            </div>
+	            <div class="index_by">
+	                <a href="#" target="_blank">
+	                    <span class="icon"></span>
+	                    <span class="text">
+	                        <b>
+	                            <i>99元包邮 60天退货</i><br>
+	                            	无忧购物体验
+	                        </b>
+	                    </span>
+	                </a>
+	            </div>
+	            <div class="index_bz">
+	                <a href="#">
+	                    <span class="icon"></span>
+	                    <span class="text">
+	                        <b>
+	                            <i>产品质量保证保险</i><br>
+	                            	信达财险承保 品质保证
+	                        </b>
+	                    </span>
+	                </a>
+	            </div>
+	        </div>
+	    </div>
+  	<!--主体-->	
+  		<div class="main">
+  		<!--专题精选-->
+  			<div class="special floor" id="zhuanti"> 
+  				<div class="newtit">
+  					<span class="t_line">专题<em>精选</em></span>
+  					<span class="smail_title">每日10点上新</span>
+  				</div>
+  				<!--精选内容-->
+  				<div class="spec_list">
+  					<div class="spec_list_con">
+  						<a href="#" target="_blank"><img src="img/special/special_1.jpg" alt="彩妆"></a>
+  					</div>
+  					<div class="spec_list_con">
+  						<a href="#" target="_blank"><img src="img/special/special_2.jpg" alt="抗皱"></a>
+  					</div>
+  					<div class="spec_list_con">
+  						<a href="#" target="_blank"><img src="img/special/special_3.jpg" alt="营养保健"></a>
+  					</div>
+  					<div class="spec_list_con">
+  						<a href="#" target="_blank"><img src="img/special/special_4.jpg" alt="箱包饰品"></a>
+  					</div>					
+  				</div>
+  			</div>
+  			<!--清除浮动-->
+  			<div class="clear"></div>
+				
+		  <!--1小时闪购-->
+			   <div class="flashsales floor" id="firstflashcontainer">
+				<!--标题-->
+				<div class="big_title">
+                    <span class="icon"></span>
+                    <span class="smail_title">每小时上新  秒杀价限时抢</span>        
+                    <!-- 倒计时 -->
+                    <div class="time_icon" id="flashSaleOneHour">
+                        <span class="minutes"></span>
+                        <span class="seconds"></span>
+                        <span class="ime_min" id="onehour_min"></span>
+                    </div>
+                      
+                    
+                    <!-- 右侧 -->
+                    <div class="nav">
+                        <ul class="flashsales_r">
+                            <li class="cur"><a class="tt_ing" href="javascript:void(0);">进行中</a></li>
+                            <li><a href="javascript:void(0);" class="tt_next">下一小时</a></li>
+                            <li><a href="#" class="tt_yg">进入预告</a></li>
+                        </ul>
+                        <!--<div class="curBg" style="left: 0px; width: 86px;"></div>
+                        <div class="cls"></div>-->
+                    </div>
+              	</div>
+                <!--内容-->
+                <div  class="flash_con">
+                	<ul id="ul_flash_con">
+                        <li>
+							<a href="#" class="pro_img">
+								<img src="img/Flashsales/01_330x330.jpg"/>
+							</a>
+                            <a href="#" class="pro_title">
+                            	<span class="pink">7.5折/</span>
+                            	LANEIGE兰芝水库凝肌清爽两件套200ml+120ml ,轻盈补水，重拾年轻紧致美肌！
+                            </a>
+                            <div class="list_l_box">
+                                <span class="box1">
+                                	<em>¥</em>322.6 <del>
+                                	<em>¥</em>430</del>
+                                </span>
+                           		<a href="#" class="go"></a>
+                             	<span class="box2">129人<em>已购买</em></span>
+                            </div>
+                        </li>
+                        
+                        <li>
+							<a href="#" class="pro_img">
+								<img src="img/Flashsales/a018241-2_330x330 (1).jpg"/>
+							</a>
+							 <a href="#" class="pro_title">
+                            	<span class="pink">4.7折/</span>
+                            	高丽雅娜芙兰丝汀紧致补水冻龄面膜，卸了妆，皮肤依然紧实如少女！
+                            </a>
+                            <div class="list_l_box">
+                                <span class="box1">
+                                	<em>¥</em>66 <del>
+                                	<em>¥</em>139</del>
+                                </span>
+                           		<a href="#" class="go"></a>
+                             	<span class="box2">528人<em>已购买</em></span>
+                            </div>
+                        </li>
+                        
+                        <li>
+							<a href="#" class="pro_img">
+								<img src="img/Flashsales/03_330x330.jpg"/>
+							</a>
+                            <a href="#" class="pro_title">
+                            	<span class="pink">5.7折/</span>
+                            	玫琳凯滋养面膜霜100g，深层清洁皮肤污垢，细致毛孔，令肌肤倍感清爽！
+                            </a>
+                            <div class="list_l_box">
+                                <span class="box1">
+                                	<em>¥</em>85.9 <del>
+                                	<em>¥</em>150</del>
+                                </span>
+                           		<a href="#" class="go"></a>
+                             	<span class="box2">309人<em>已购买</em></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+			   </div>		
+			   <!--清除浮动-->
+  			 <div class="clear"></div>
+    
+    	<!--今日爆款-->
+    		<div class="today_bk floor">
+      		<!--爆款标题-->
+      		<div class="bk_title">
+      			<span class="ico"></span>
+      			<span class="smail_title">每日10点上新</span>
+      		</div>		
+      		<!--爆款内容-->
+      		<div class="bk_pro">
+              <ul id="bk_pro">	     
+                <!-- 爆款模板 -->
+          		</ul>
+          </div>   	
+    	  </div>
+	   		<!--清除浮动-->
+	        <div class="clear"></div>
+
+      <!--品牌闪购-->
+	        <div class="pp_con floor">
+	          	<!--闪购标题-->
+	          	<div class="pp_title">
+	            	<span class="ico"></span>
+	            	<span class="smail_title">每日10点 准时开抢</span>
+	            	<a href="#" class="pp_more">查看更多&gt;&gt;</a>
+	          	</div>
+	          	<!--闪购内容-->
+	          	<div class="sale_list">
+	            	<div class="list_item_br">
+                  <!-- 闪购模板 -->
+	        	    </div>
+	    	      </div>
+		      </div>
+        <!--清除浮动-->
+        <div class="clear"></div>
+
+      <!-- 今日闪购 -->
+        <div class="today_sg floor">
+        <!-- 标题 -->
+          <div class="t_sg_title">
+                <span class="icon"></span>
+                <span class="smail_title">爆款限量抢</span>
+                <div class="nav2">
+                    <ul class="t_sg_r">
+                        <li class="cur"><a href="javascript:void(0);" class="t_sg_m t_sg_m_h">默认</a></li>
+                        <li><a href="javascript:void(0);" class="t_sg_t">今日上新</a></li>
+                        <li><a href="javascript:void(0);" class="t_sg_f">最后疯抢</a></li>
+                    </ul>
+                    <div class="curBg2"></div>
+                    <div class="cls"></div>
+                </div>
+          </div>
+        <!-- 内容 -->
+          <div class="today_sg_con">
+            <ul id="flashSaleDay">
+              <!-- 今日闪购模板 -->
+              <!-- <li>
+                <div class="tt_tags"></div>
+                <a class="sg_img" href="#"><img src="img/Flashsales/01_330x330.jpg"></a>
+                <a class="pro_title" href="#">
+                  <span class="pink">7.0折/</span>雅诗兰黛特润修护肌透精华露50ml（第六代），感受修护，激活肌肤日夜不间断！！
+                </a>
+                <div class="list_l_box">
+                  <span class="box1"><em>¥</em>598.9 <del><em>¥</em>850</del></span>
+                  <a href="#" class="sg_go">立即购买</a>
+                </div>
+                <div class="today_sg_bt">
+                  <span class="sg_num">1018人<em>已购买</em></span>
+                </div>
+              </li> -->
+           </ul>
+         
+         </div>
+        </div>
+    </div>
+
+
+
+
+	
+   		<!--尾部-->
+		<div class="z_foot">
+    		<dl class="foot_info">
+        		<dd>
+           			<strong>使用帮助</strong>
+            			<a href="#" target="_blank">新用户注册</a>
+            			<a href="#" target="_blank">找回密码</a>
+            			<a href="#" target="_blank">会员级别</a>
+            			<a href="#" target="_blank">积分说明</a>
+           				<a href="#" target="_blank">常见问题</a>
+        		</dd>
+        		<dd>
+            		<strong>购物指南</strong>
+            		<a href="#" target="_blank">正品货源采购</a>
+            		<a href="#" target="_blank">关于闪购</a>
+            		<a href="#" target="_blank">优惠券</a>
+            		<a href="#" target="_blank">积分计划</a>
+        		</dd>
+        		<dd>
+            		<strong>支付方式</strong>
+		            <a target="_blank" href="#">在线支付</a>
+		            <a target="_blank" href="#">货到付款</a>
+		            <a target="_blank" href="#">余额支付</a>
+		        </dd>
+		        <dd>
+		            <strong>配送方式</strong>
+		            <a target="_blank" href="#">配送范围及运费</a>
+		            <a target="_blank" href="#">配送信息跟踪</a>
+		            <a target="_blank" href="#">闪电发货</a>
+		        </dd>
+		        <dd>
+		            <strong>售后服务</strong>
+		            <a target="_blank" href="#">正品承诺</a>
+		            <a target="_blank" href="#">退换货政策</a>
+		            <a target="_blank" href="#">退款说明</a>
+		            <a target="_blank" href="#">自助办理退换货</a>
+		        </dd>
+		        <dd class="w_sj">
+		            <a href="#" target="_blank">
+		            <b></b>手机萤草网</a>
+		        </dd>
+		        <dd class="w_tt">
+		            <a href="javascript:void(0);">
+		                <b></b>萤草网微信
+		            </a>
+		        </dd>
+    		</dl>
+		    
+		    <div class="foot_serv2">
+		        <dl class="ser1">
+		            <dt></dt>
+		            <dd><b>正品保证</b>官方授权 100%信赖</dd>
+		        </dl>
+		        <dl class="ser2">
+		        	<dt></dt>
+		            <dd><b>无忧体验 </b>闪电发货 60天退货</dd>
+		        </dl>
+		        <dl class="ser3">
+		            <dt></dt>
+		            <dd><b>成功上市</b>新三板代码834717</dd>
+		        </dl>
+		        <dl class="ser4">
+		            <dt></dt>
+		            <dd><b>明星入股</b>代言人陈坤 出任股东</dd>
+		        </dl>
+		        <dl class="ser5">
+		            <dt></dt>
+		            <dd><b>全球好货 </b>全球精品 一站购齐</dd>
+		        </dl>
+		        <dl class="ser6">
+		            <dt></dt>
+		            <dd><b>千万会员</b>千万用户 值得信任</dd>
+		        </dl>
+		        <dl class="ser7">
+		            <dt></dt>
+		            <dd><b>资本稳健</b>软银赛富 鼎力支持</dd>
+		        </dl>
+		    </div>
+		    
+		    <div class="foot_copy">
+		        <p class="copy1">
+		            <a target="_blank" href="#">关于萤草网</a><span>|</span>
+		            <a target="_blank" href="#">萤草网大事记</a><span>|</span>
+		            <a target="_blank" href="#">品牌合作</a><span>|</span>
+		            <a target="_blank" href="#">获奖殊荣</a><span>|</span>
+		            <a target="_blank" href="#">招贤纳士</a><span>|</span>
+		            <a target="_blank" href="#">联系我们</a><span>|</span>
+		            <a target="_blank" href="#">手机萤草网</a><span>|</span>
+		            <a target="_blank" href="#">友情链接</a><span>|</span>
+		        </p>
+		        <p class="copy2">
+		            ©2017 北京萤草美尚信息科技股份有限公司 Tiantian.com 保留一切权利。
+		            <a target="_blank" href="#">
+		            	<img src="img/footer/gaw.png">
+		       			<span>京公网安备 11010802021981号</span>
+		            </a>
+		        </p>
+		        <div class="copy3">
+		            <img src="img/footer/11_11.gif"/>
+		            <img src="img/footer/11_15.gif">
+		            <a target="_blank" href="#"><img src="img/footer/11_17.gif"></a>
+		            <a target="_blank" href="#"><img src="img/footer/morelogo.png"></a>
+		            <div class="clear1"></div>
+		        </div>
+		    </div>
+		</div>
+   	
+   		<!--左侧导航栏-->
+   		<div class="leftnav">
+   			<ul>
+            	<li class="leftli1"><a href="#" class="left_a4">专题精选</a></li>
+            	<li class="leftli1"><a href="#" class="left_a3">1小时闪购</a></li>
+            	<li class="leftli1"><a href="#" class="left_a2">今日爆款</a></li>
+            	<li class="leftli1 leftli2"><a href="#" class="left_a1">品牌闪购</a></li>
+            	<li class="leftli1"><a href="#threeflashcontainer" class="left_a5">今日闪购</a></li>
+         	</ul>
+   		</div>
+		
+		<!--右侧边栏-->
+		<div class="ibar">
+    		<div class="ibar_main_panel">
+        		<ul class="ibar_mp_center">
+            		<li class="mpbtn_login">
+            			<a href="javascript:void(0)" name="Login"><s></s>登录</a>
+            		</li>
+            		<li class="mpbtn_cart">
+                		<a href="javascript:void(0)"><s></s>
+                			<span class="text">购物车</span>
+                			<span class="cart_num">0</span>
+                		</a>
+            		</li>
+            		<li class="mpbtn_asset">
+                		<a href="javascript:void(0)"><s></s></a>
+                		<div class="mp_tooltip">
+                			我的财产
+                			<s class="icon_arrow_right_black"></s>
+                		</div>
+            		</li>
+            		<li class="mpbtn_favorite">
+                		<a href="javascript:void(0)"><s></s>我的关注</a>
+                		<div class="mp_tooltip">
+                    		我的关注
+                    		<s class="icon_arrow_right_black"></s>
+                		</div>
+            		</li>
+            		<li class="mpbtn_histroy">
+                		<a href="javascript:void(0)">
+                    		<s></s>我看过的
+                		</a>
+                		<div style="left: -92px; opacity: 1;" class="mp_tooltip">
+                    		我看过的
+                    		<s class="icon_arrow_right_black"></s>
+                		</div>
+            		</li>
+        		</ul>
+        		
+        		<ul class="ibar_mp_bottom">
+            		<li class="mpbtn_qrcode">
+                		<a href="javascript:void(0)"><s></s>手机萤草</a>
+                		<div class="mp_qrcode">
+                    		<img src="img/sidebar/ewm.png"/></s>
+                		</div>
+            		</li>
+            		<li class="mpbtn_support">
+                		<a href="javascript:void(0);"><s></s>客服中心</a>
+                		<div class="mp_tooltip">
+                    		客服中心
+                    		<s class="icon_arrow_right_black"></s>
+                		</div>
+            		</li>
+            		<li class="mpbtn_gotop" id="gotop">
+                		<a href="javascript:void(0)" class="btn_gotop"><s></s>返回顶部</a>
+                		<div class="mp_tooltip">
+                    		返回顶部
+                    		<s class="icon_arrow_right_black"></s>
+                		</div>
+            		</li>
+        		</ul>
+    		</div>   
+		</div>
+
+	<script type="text/javascript" src="lib/jQuery/jquery-1.12.4.min.js" ></script>
+    <script type="text/javascript" src="lib/jQuery/jquery.cookie.js"></script>
+    <script type="text/javascript" src="lib/artTemplate/template-native.js" ></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <!-- 爆款模板 -->
+          <script id="floor" type="text/html"> 
+            <% for (var j = 20; j < 24; j++) {
+              var p = list[j];
+            %>
+            <li>
+              <div class="bk_img">
+                <a href="html/detail.html"><img class="dx_pic" src="<%=p.url%>"></a>
+              </div>
+                <div class="bk_con">
+                    <div class="bk_tit">
+                      <a href="html/detail.html"><span class="pink"><%=p.discount%>折/</span><%=p.name%></a>
+                    </div>
+                    <div class="bk_detail"><%=p.introduce%></div>
+                    <div class="price">
+                        <span class="price_num"><em>¥</em><%=p.price%></span>
+                        <span class="market_price">¥<%=p.marketprice%></span>
+                        <a href="#"><span class="btn"></span></a>
+                    </div>
+                    <div class="deal_info_box">
+                      <div class="deal_newtips">
+                          <b></b>仅剩：
+                      </div>
+                        <div class="deal_rating">
+                            <b class="pink"><%=p.buy%></b><span>人已经购买</span>
+                        </div>
+                    </div>
+                </div>
+            </li> 
+            <%}%>
+          </script>
+
+
+          <script type="text/javascript">
+            $(function() {
+                $.ajax({
+                    type: "GET",
+                    url: "php/products.php", 
+                    dataType: "json",
+                    success: function(data){ 
+                      data = {list:data};
+                        var html = template("floor",data);
+                       $("#bk_pro").html(html); 
+                    }
+                });
+            });
+          </script>
+
+    <!-- 品牌闪购模板 -->
+          <script id="flash" type="text/html"> 
+            <% for (var j = 24; j < 33; j++) {
+              var p = list[j];
+            %>
+              <div class="list_item_br">
+                    <div class="di-prddiv">
+                        <div class="tt_tags"></div>
+                        <div class="pp_img">
+                            <a href="html/detail.html"><img src="<%=p.url%>"></a>
+                        </div>
+                        <div class="pinpai_name">
+                            <div class="pp_name_left">
+                                <p class="di_p1">
+                                    <a href="#"><%=p.brand%></a>
+                                </p>
+                                <p class="di_p2"><%=p.introduce%></p>
+                            </div>
+                        </div>
+                        <div class="pp_bt">
+                            <div class="di_p3">全场<span><%=p.discount%>折起</span></div>
+                        </div>
+                    </div>
+                </div>
+            <%}%>
+          </script>
+
+          <script type="text/javascript">
+            $(function() {
+                $.ajax({
+                    type: "GET",
+                    url: "php/products.php", 
+                    dataType: "json",
+                    success: function(data){ 
+                      data = {list:data};
+                        var html = template("flash",data);
+                       $(".sale_list").html(html); 
+                    }
+                });
+            });
+          </script>
+
+    <!-- 今日闪购模板 -->
+         <script id="today" type="text/html"> 
+            <% for (var j = 33; j < list.length; j++) {
+              var p = list[j];
+            %>
+            <li>
+                <div class="tt_tags"></div>
+                <a class="sg_img" href="#"><img src="<%=p.url%>"></a>
+                <a class="pro_title" href="#">
+                  <span class="pink"><%=p.discount%>折/</span><%=p.name%>
+                </a>
+                <div class="list_l_box">
+                  <span class="box1"><em>¥</em><%=p.price%> <del><em>¥</em><%=p.marketprice%></del></span>
+                  <a href="#" class="sg_go">立即购买</a>
+                </div>
+                <div class="today_sg_bt">
+                  <span class="sg_num"><%=p.buy%>人<em>已购买</em></span>
+                </div>
+            </li>
+            <%}%>
+          </script>
+
+
+          <script type="text/javascript">
+            $(function() {
+                $.ajax({
+                    type: "GET",
+                    url: "php/products.php", 
+                    dataType: "json",
+                    success: function(data){ 
+                      data = {list:data};
+                        var html = template("today",data);
+                       $("#flashSaleDay").html(html); 
+                    }
+                });
+            });
+          </script>
+  </body>
+</html>
