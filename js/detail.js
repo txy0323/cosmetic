@@ -41,8 +41,16 @@ $(function(){
 				$(".detail-data-box").children().eq(4).children().eq(1).children().text(element.countrytext)
 			//保质期
 				$(".detail-data-box").children().eq(5).children().eq(1).children().text(element.deadline)
-			});
-
+			
+	        //产品详情图片
+				$(".photo1").children().eq(0).prop("src", element.photo1);
+			
+			//产品实拍
+	        	$(".photo2").children().eq(0).prop("src", element.photo2);
+	        	$(".photo3").children().eq(0).prop("src", element.photo3);
+	        });
+			
+			
     		// 切换选项卡  
     		$("#ys1").on("mouseenter", function(){
     			$("#sy1").css({"display":"block"});
@@ -170,7 +178,7 @@ $(function(){
 			 //向右
     		function toRight(){
 				k++;
-				if(k === 3){
+				if(k === 2){
 					k = 0;
 				}
 				$(".tempWrap_ul").animate({left:-1 * 960 * k},1000);
@@ -193,7 +201,20 @@ $(function(){
 		 	toLeft();
 		});
 		
-			
+		// 楼层导航 
+            // 滚动时的效果
+            $(window).on("scroll", function(){
+                var _offTop = $(".floor").first().offset().top,
+                    winHeight = $(window).height(), 
+                    scrollTop = $(window).scrollTop(); 
+
+              // 点击导航跳转的效果
+            $("#new_deal_tabs").on("click", "li", function(){
+                var _index = $(this).index(); 
+                var _offsetTop = $(".floor").eq(_index).offset().top;
+                $("html, body").stop(true).animate({scrollTop:_offsetTop}, 500);
+            });
+            });
 
 		// 划上改变图片
 			$(".min_1").on("mouseenter", function(){

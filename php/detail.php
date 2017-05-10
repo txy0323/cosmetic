@@ -12,7 +12,7 @@
 
 	mysql_select_db("bdm264098114_db");
 
-	$sql = "SELECT id, brand, name, introduce, marketprice, price, evaluation, buy, small1, small2, small3, middle1, middle2, middle3, large1, large2, large3, country, salepromotion, effect, pack, proarea, deadline FROM products WHERE num = '$num'";
+	$sql = "SELECT id, brand, name, introduce, marketprice, price, evaluation, buy, small1, small2, small3, middle1, middle2, middle3, large1, large2, large3, country, salepromotion, effect, pack, proarea, deadline, photo1, photo2, photo3 FROM products WHERE num = '$num'";
 
 	$result = mysql_query($sql, $connection);
 

@@ -5,7 +5,8 @@ body{background:#f4f4f4;}
 .banner_bg{ background:#fff; width: 100%;position: relative;}
 .banner{width:100%; height:350px;position: relative;margin: 0 auto;overflow: hidden;}
 .banner ul{width:7680px; position: absolute}
-.banner li{height:350px; width: 1280px;float: left;}
+.banner li{height:350px; width:1280px;float: left;}
+.banner li img{height:350px; width:1280px;}
 .banner_btn2{ position: absolute; width: 100%; height: 25px; left: 0; bottom: 12px; text-align: center; overflow: hidden }
 .banner_btn2 span{ display: inline-block; width: 25px; height: 25px; line-height: 25px; text-align: center; font-size: 35px; font-family: Verdana; cursor: pointer; color:rgba(44,44,44,0.5); }
 .banner_btn2 span.on{color:#ec1a5b}

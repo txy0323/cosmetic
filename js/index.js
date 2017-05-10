@@ -2,10 +2,13 @@
 	$(function(){
 		var i=0;
 		var imgWidth = $("#carousel li").width();
+//		console.log(imgWidth);
+//		$("#carousel").css({"width":imgWidth*5,"position":"absolute"});
+//		$("#carousel li img").css({"width":imgWidth});
+//		$("#carousel li").css({"height":"350px","width":"100%","float":"left"});
 		var clone = $("#carousel li").first().clone(true);
 		$("#carousel").append(clone);
 		var len = $("#carousel li").length;
-		console.log(len);
 
 		// 小圆点划上事件
 		$("#slidebutton span").first().addClass("on");
@@ -87,7 +90,6 @@
                 var _offTop = $(".floor").first().offset().top,
                     winHeight = $(window).height(), 
                     scrollTop = $(window).scrollTop(); 
-                    console.log(scrollTop);
 
                 if (scrollTop > _offTop - winHeight / 5) {
                     $(".leftnav ul").show(); 
@@ -140,13 +142,13 @@
               },100);
 
           //天气
-              $.ajax({
+             /* $.ajax({
                 type: "POST",
                 url: "http://route.showapi.com/9-8?showapi_appid=31702&showapi_sign=7f4dd3f509dd4ce2841774ad2aea334b&",  
                 dataType: "json" ,
                 success: function(data){
                   console.log(data);
                 }
-              });		
+              });*/		
 		});
 	

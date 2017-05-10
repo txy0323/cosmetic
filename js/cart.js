@@ -22,10 +22,24 @@ $(function () {
        				  });
        				 }
 
-       			//读取cookie中保存的products 
-					var products = $.cookie("products") || [];
-					console.log(products);
+       			
 					
+				//读取数据库中用户购物车信息
+				$.cookie.json = true;
+				$.ajax({
+					url: "../php/cart.php",
+					type: "get",
+					data: {action:"search", username:user},
+					dataType: "json",
+					success:function(data){						
+						$.cookie("products",data,{expires:7, path:"/"});
+					}
+				});
+				
+				//读取cookie中保存的products 
+				var products = $.cookie("products") || [];
+				console.log(products);
+				
 				// 判断购物车是否为空
 					if (products.length === 0) {
 					/*	alert("购物车为空，请选购商品");*/
